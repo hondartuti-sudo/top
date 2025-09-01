@@ -1,4 +1,3 @@
-html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -14,7 +13,7 @@ html
             color: #333;
         }
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
             background: white;
             padding: 40px;
@@ -33,35 +32,67 @@ html
             margin: 15px;
             padding: 15px 30px;
             font-size: 16px;
-            background-color: #4CAF50; /* Зеленый цвет кнопок */
+            background-color: #4CAF50;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
         .button:hover {
-            background-color: #45a049; /* Темно-зеленый при наведении */
+            background-color: #45a049;
         }
-        /* Опционально: чтобы сделать кнопки разного цвета */
         .button.alt {
-            background-color: #008CBA; /* Синий цвет для второй кнопки */
+            background-color: #008CBA;
         }
         .button.alt:hover {
             background-color: #007B9A;
+        }
+        /* Стили для блока с картинками */
+        .images-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        .image-wrapper {
+            text-align: center;
+        }
+        .header-image {
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .image-caption {
+            font-size: 14px;
+            color: #666;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Where do you want to go?</h1>
-        <p>Please select one of the options below.:</p>
+        <!-- ↓↓↓ БЛОК С ДВУМЯ КАРТИНКАМИ РЯДОМ ↓↓↓ -->
+        <div class="images-container">
+            <div class="image-wrapper">
+                <img src="https://avatars.mds.yandex.net/i?id=670dc6eb6e4c5cc8b3c0341be54757e9fc02c8ef-5875622-images-thumbs&n=13" class="header-image" alt="Фото 1">
+                <div class="image-caption">Подпись к фото 1</div>
+            </div>
+            <div class="image-wrapper">
+                <img src="https://avatars.mds.yandex.net/i?id=b91644a4c4cdcce6267ec9acaf896e08_sr-4055830-images-thumbs&n=13" class="header-image" alt="Фото 2">
+                <div class="image-caption">Подпись к фото 2</div>
+            </div>
+        </div>
+        <!-- ↑↑↑ ЗАМЕНИТЕ # НА ССЫЛКИ НА ВАШИ ФОТО ↑↑↑ -->
 
-        <!-- ЗАМЕНИТЕ ССЫЛКИ И ТЕКСТ НА СВОИ -->
-        <a href="https://1wvlau.life/casino/play/v_bgaming:Aviamasters?p=68h4" class="button">Aviamaster1</a>
-        <a href="https://1wvlau.life/casino/play/infingames_galaxsys_tower_rush?p=68h4" class="button alt">TowerRush2</a>
-        <!-- Конец блока для замены -->
+        <h1>Where do you want to go?</h1>
+        <p>Please select one of the options below.::</p>
+
+        <!-- ↓↓↓ ЗАМЕНИТЕ ССЫЛКИ И ТЕКСТ НА СВОИ ↓↓↓ -->
+        <a href="https://1wvlau.life/casino/play/v_bgaming:Aviamasters?p=68h4" class="button">AVIAMASTER</a>
+        <a href="https://1wvlau.life/casino/play/infingames_galaxsys_tower_rush?p=68h4" class="button alt">TOWERRUSH</a>
+        <!-- ↑↑↑ ↑↑↑ ↑↑↑ ↑↑↑ ↑↑↑ ↑↑↑ ↑↑↑ ↑↑↑ ↑↑↑ ↑↑↑ -->
 
     </div>
 </body>
 </html>
-
